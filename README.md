@@ -6,8 +6,8 @@ The main aim of the project is to learn about digital logic design and waveform-
 
 ## Architecture
 There are two main hardware blocks in the system integrated within a top-level module:
-* **Synchronous FIFO ("sync_fifo.sv"):** A circular buffer that has the First-Word-Fall-Through logic. It manages a read pointer and a write pointer and calculates "full" and "empty" flags to prevent data loss.
-* **FSM Controller ("fifo_controller.sv"):** A 3-block moore machine that acts as the brain of the system. When it receives a "start" signal, it changes its state to drive "wr_en" and "wr_data" signals to push a sequence of data in.
+* **Synchronous FIFO (`sync_fifo.sv`):** A circular buffer that has the First-Word-Fall-Through logic. It manages a read pointer and a write pointer and calculates "full" and "empty" flags to prevent data loss.
+* **FSM Controller (`fifo_controller.sv`):** A 3-block moore machine that acts as the brain of the system. When it receives a "start" signal, it changes its state to drive "wr_en" and "wr_data" signals to push a sequence of data in.
 
 ## Development Process & Methodology
 This project has been developed as a learning environment for Design Verification (DV) practices:
