@@ -17,7 +17,7 @@ This project has been developed as a learning environment for Design Verificatio
 ## Toolchain
 * Language: SystemVerilog (IEEE 1800-2012)
 * Environment: Windows Subsystem for Linux (WSL - Ubuntu)
-* Compiler/Simulator: Icarus Verilog ("iverilog")
+* Compiler/Simulator: Icarus Verilog (`iverilog`)
 * Waveform Viewer: GTKWave
 
 ## How to Run the Simulation
