@@ -39,7 +39,7 @@ module tb_fifo_controller ();
 
     #50;
 
-    $display("FSM Testi Tamamlandi!");
+    $display("FSM test finished (check waveform).");
     $finish;
   end
 endmodule

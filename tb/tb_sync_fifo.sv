@@ -72,7 +72,7 @@ module tb_sync_fifo ();
     rd_en = 0;
 
     #30;
-    $display("Overflow Testi Tamamlandi!");
+    $display("Overflow test finished (check waveform).");
     $finish;
   end
 
