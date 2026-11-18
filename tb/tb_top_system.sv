@@ -55,7 +55,7 @@ module tb_top_system ();
     rd_en = 0;
 
     #30;
-    $display("Sistem Entegrasyon Testi Tamamlandi!");
+    $display("System integration test finished (check waveform).");
     $finish;
   end
 endmodule
